@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Nova+Oval&display=swap');
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-mid {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    top: 10px;
+}
+
+
+.hero-text h1 {
+    padding-top: 4rem !important;
+    font-family: "DynaPuff";
+}
+
+img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.hero-text h1{
+    font-size: 2rem;
+    font-weight: 800;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-text p{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    padding: 0.5rem 0 2rem 0;
+    font-family: "Nova Oval";
+}
+
+.hero-text .Show {
+    text-decoration: none;
+    background: #fff;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #222;
+}
+
+.hero-text .hide {
+   display: none;
+}
+
+@media screen and (max-width: 555px) {
+    .hero-text h1{
+        padding: 5px 20px;
+    }
+
+    .hero-text p {
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+
+    .hero-text .Show {
+        padding: .6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+
+} 
