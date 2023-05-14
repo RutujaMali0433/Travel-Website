@@ -19,7 +19,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 TRavel Website -- The beauty of these amazing destinations and their presentation in appropriate way is something that attracts customers. Customers are interested in exploring every location on their own without any intervention of travel operators. They want to have entire control in their hand. Let’s explore this magical website 0 created for Tours a& Travels.
 
-#Summary 📣 This website (ToolBox) was built using ReactJs. This website contains reusable UI components. I have built the following pages within this application: Hero page, About Page, Service Page and Contact Page. There are four different pages.
+#Summary 📣 This website was built using ReactJs. This website contains reusable UI components. I have built the following pages within this application: Hero page, About Page, Service Page and Contact Page. There are four different pages.
 
 Hero (Home) Page - Hero Page is the js file that has --> Hero Image, title, text and button (Travel Plans) called by using props method from Home.js file in routes, Most visited places, React trips and footer.
 
